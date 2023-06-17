@@ -54,5 +54,3 @@ app.get("/api/search/:item", async (req, res) => {
 });
 
 module.exports = app;
-
-amazonScraperAgent("headphoens").then(console.log).catch(console.error);
